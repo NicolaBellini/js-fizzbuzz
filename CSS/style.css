@@ -4,6 +4,20 @@
   box-sizing: border-box;
 }
 
+img{
+  width: 100%;
+}
+
+body{
+  background-color: #0d0f0e;
+  background-image: url(https://images.unsplash.com/photo-1708359495712-2cef26b73452?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1Nnx8fGVufDB8fHx8fA%3D%3D);
+  background-size: contain;
+  
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 98vh;
+}
+
 .box{
   height: 70px;
   width: 70px;
@@ -17,23 +31,31 @@
 }
 
 .box:hover{
- box-shadow: 3px 4px rgb(57, 44, 44);
  transform: scale(150%);
- background-color: rgb(0, 172, 172);
+ background-color: rgb(29, 61, 61);
 }
 
 .multiple-3-5{
-  background-color: sandybrown;
+  background-color: rgb(100, 100, 100);
 }
 
 .multiple-3{
-  background-color: forestgreen;
+  background-color: rgb(141, 141, 141);
 }
 
 .multiple-5{
-  background-color: violet;
+  background-color: rgb(49, 49, 49);
 }
 
 .normal{
-  background-color: rgb(79, 79, 196);
+  background-color: rgb(198, 198, 198);
+}
+
+.my-input{
+  margin: 50px auto;
+}
+
+.my-btn{
+  width: 100px;
+  margin: 0 auto;
 }
