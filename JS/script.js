@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function(){
       
       container.innerHTML = ""
       if(!(isNaN(inputNum))){
-        for(i = 1; i < limit; i++){
+        for(i = 1; i <= limit; i++){
           if((!(i % 3) && (!(i % 5)))){
             console.log(i +" multiplo sia di 3 che di 5");
             container.innerHTML += `
