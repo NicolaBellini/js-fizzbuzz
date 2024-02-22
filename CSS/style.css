@@ -5,8 +5,8 @@
 }
 
 .box{
-  height: 50px;
-  width: 50px;
+  height: 70px;
+  width: 70px;
   color: white;
   margin: 7px;
   display: flex;
@@ -19,7 +19,7 @@
 .box:hover{
  box-shadow: 3px 4px rgb(57, 44, 44);
  transform: scale(150%);
- background-color: grey;
+ background-color: rgb(0, 172, 172);
 }
 
 .multiple-3-5{

@@ -7,17 +7,17 @@ for(i = 1; i < limit; i++){
   if((!(i % 3) && (!(i % 5)))){
     console.log(i +" multiplo sia di 3 che di 5");
     container.innerHTML += `
-    <div class="box multiple-3-5">${i}</div>
+    <div class="box multiple-3-5">fizzbuzz</div>
     `
   }else if(!(i % 5)){
     console.log(i + " multiplo di 5");
     container.innerHTML += `
-    <div class="box multiple-5">${i}</div>
+    <div class="box multiple-5">buzz</div>
     `
   }else if  (!(i % 3)){
     console.log(i + " multiplo di 3");
     container.innerHTML += `
-    <div class="box multiple-3">${i}</div>
+    <div class="box multiple-3">fizz</div>
     `
   }else{
     console.log(i);
