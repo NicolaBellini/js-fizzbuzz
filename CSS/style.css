@@ -15,7 +15,7 @@ body{
   
   background-repeat: no-repeat;
   background-position: bottom center;
-  height: 98vh;
+  height: 100vh;
 }
 
 .box{
@@ -53,6 +53,11 @@ body{
 
 .my-input{
   margin: 50px auto;
+  border-radius: 10px;
+}
+
+.my-input:focus{
+  outline: none;
 }
 
 .my-btn{
