@@ -7,6 +7,26 @@
 .box{
   height: 50px;
   width: 50px;
-  background-color: sandybrown;
   color: white;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+.multiple-3-5{
+  background-color: sandybrown;
+}
+
+.multiple-3{
+  background-color: forestgreen;
+}
+
+.multiple-5{
+  background-color: violet;
+}
+
+.normal{
+  background-color: rgb(79, 79, 196);
 }
